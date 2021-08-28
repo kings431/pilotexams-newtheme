@@ -17,7 +17,18 @@ export default function Index() {
                 Start studying for your next exam with Pilot Exams.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Pilot Exams makes it easy to study and stay focused. Offering feedback, detailed statistics, in depth questions if your having trouble and even one on one tutoring if needed. Try out Pilot Exams and you'll never need another studying resource!
+                Notus NextJS is Free and Open Source. It does not change any of
+                the CSS from{" "}
+                <a
+                  href="https://tailwindcss.com/?ref=creativetim"
+                  className="text-blueGray-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tailwind CSS
+                </a>
+                . It features multiple HTML elements and it comes with dynamic
+                components for ReactJS, Vue and Angular.
               </p>
               <div className="mt-12">
               <a
@@ -35,7 +46,7 @@ export default function Index() {
                   Pricing
                 </a>
                 <a
-                  href="courses"
+                  href="register"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -141,7 +152,8 @@ export default function Index() {
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Courses</h6>
                       <p className="mb-4 text-blueGray-500">
-                        Our exams were specialy made from common known Transport Canada exams from people who already wrote the test!
+                        This extension also comes with 3 sample pages. They are
+                        fully coded so you can start working instantly.
                       </p>
                     </div>
                   </div>
@@ -154,7 +166,8 @@ export default function Index() {
                         Pricing
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Pilot Exams pricing is the most competitive out there. Find something cheaper? Let us know and we'll make it right.
+                        Built by developers for developers. You will love how
+                        easy is to to work with Notus NextJS.
                       </p>
                     </div>
                   </div>
@@ -222,7 +235,7 @@ export default function Index() {
                 <img
                   alt="..."
                   src="/img/courses.png"
-                  className="w-full align-right max-w-500-px left-10-px -top-50-px z-3"
+                  className="w-full align-right rounded absolute shadow-lg max-w-500-px left-10-px -top-29-px z-3"
                 />
               </div>
             </div>
@@ -296,11 +309,21 @@ export default function Index() {
                 Why use Pilot Exams?
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Pilot exams has proven over and over again we are the best training resource for pilots working to there next license.
-                With countless students aceing exams by just using Pilot Exams as there main studying resource!
+                Since{" "}
+                <a
+                  href="https://tailwindcss.com/?ref=creative"
+                  className="text-blueGray-300"
+                  target="_blank"
+                >
+                  Tailwind CSS
+                </a>{" "}
+                is an open source project we wanted to continue this movement
+                too. You can give this version a try to feel the design and also
+                test the quality of the code!
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                Try us out today! If you don't pass your exam we will issue you a full refund. 
+                Get it free on Github and please help us spread the news with a
+                Star!
               </p>
               <a
                 href="/register"
